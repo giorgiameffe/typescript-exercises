@@ -54,7 +54,11 @@ console.log('Somma:', sum);
 
 // ✏️ Esercizio 8 – String template
 
-// Crea una variabile nomeUtente, una anni, e stampa "Ciao Marco, hai 28 anni." usando template string.
+// Crea una variabile userName, una userAge, e stampa "Ciao Marco, hai 28 anni." usando template string.
+
+const userName: string = 'Marco';
+const userAge: number = 28;
+console.log(`Ciao ${userName}, hai ${userAge} anni.`);
 
 // ✏️ Esercizio 9 – Errore di tipo
 
