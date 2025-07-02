@@ -35,7 +35,13 @@ console.log(favouriteColour);
 
 // ✏️ Esercizio 6 – Riassegnazione
 
-// Crea una variabile punteggio con valore 0, poi aggiornala a 100.
+// Crea una variabile score con valore 0, poi aggiornala a 100.
+
+let score: number = 0;
+console.log(score);
+
+score = 100;
+console.log(score);
 
 // ✏️ Esercizio 7 – Somma di due numeri
 
