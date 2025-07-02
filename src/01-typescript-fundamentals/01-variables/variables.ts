@@ -9,9 +9,13 @@ console.log(myName);
 
 // Dichiara una variabile age e assegnale un numero intero.
 
+const age: number = 28;
+console.log(age);
+
 // ✏️ Esercizio 3 – Costante
 
 // Crea una costante PI con valore 3.14.
+
 
 // ✏️ Esercizio 4 – Variabile booleana
 
