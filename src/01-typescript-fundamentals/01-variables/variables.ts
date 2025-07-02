@@ -62,7 +62,9 @@ console.log(`Ciao ${userName}, hai ${userAge} anni.`);
 
 // ✏️ Esercizio 9 – Errore di tipo
 
-// Dichiara una variabile livello come number e prova ad assegnarle una stringa.
+// Dichiara una variabile level come number e prova ad assegnarle una stringa.
+
+// const level: number = 'Girasole'; [Esercizio commentato per errore in console]
 
 // ✏️ Esercizio 10 – Variabili multiple
 
