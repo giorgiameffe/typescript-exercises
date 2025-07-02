@@ -28,7 +28,10 @@ console.log(isOnline);
 
 // ✏️ Esercizio 5 – Tipizzazione implicita
 
-// Dichiara una variabile colorePreferito senza specificare il tipo, ma assegnale un valore stringa.
+// Dichiara una variabile favouriteColour senza specificare il tipo, ma assegnale un valore stringa.
+
+const favouriteColour = 'lilac';
+console.log(favouriteColour);
 
 // ✏️ Esercizio 6 – Riassegnazione
 
