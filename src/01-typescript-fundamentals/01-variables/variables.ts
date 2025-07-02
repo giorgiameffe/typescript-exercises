@@ -16,6 +16,8 @@ console.log(age);
 
 // Crea una costante PI con valore 3.14.
 
+const PI: number = 3.14;
+console.log(PI);
 
 // ✏️ Esercizio 4 – Variabile booleana
 
