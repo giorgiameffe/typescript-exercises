@@ -47,6 +47,11 @@ console.log(score);
 
 // Dichiara due variabili a e b, sommale e stampa il risultato.
 
+const a: number = 3;
+const b: number = 8;
+const sum: number = a + b;
+console.log('Somma:', sum);
+
 // ✏️ Esercizio 8 – String template
 
 // Crea una variabile nomeUtente, una anni, e stampa "Ciao Marco, hai 28 anni." usando template string.
