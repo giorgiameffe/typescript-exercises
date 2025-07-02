@@ -23,6 +23,9 @@ console.log(PI);
 
 // Dichiara una variabile isOnline e assegnale il valore true.
 
+const isOnline: boolean = true;
+console.log(isOnline);
+
 // ✏️ Esercizio 5 – Tipizzazione implicita
 
 // Dichiara una variabile colorePreferito senza specificare il tipo, ma assegnale un valore stringa.
