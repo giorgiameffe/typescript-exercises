@@ -28,17 +28,22 @@ if (isLogged) {
 // ✏️ Esercizio 4 – Variabile null
 // Assegna null a una variabile e stampala
 
-const firstName: null = null;
-console.log(firstName);
+const nullData: null = null;
+console.log(nullData);
 
 // ✏️ Esercizio 5 – Variabile undefined
 // Assegna undefined a una variabile e verifica typeof
 
-const lastName: undefined = undefined;
-console.log(typeof lastName);
+const undefinedData: undefined = undefined;
+console.log(typeof undefinedData);
 
 // ✏️ Esercizio 6 – Concatenazione stringhe
 // Concatena due stringhe con template literals
+
+const firstName: string = 'Giorgia';
+const lastName: string = 'Meffe';
+const fullName: string = `${firstName} ${lastName}`;
+console.log(fullName);
 
 // ✏️ Esercizio 7 – Funzione numerica
 // Scrivi una funzione che prende due numeri e restituisce la somma
