@@ -121,5 +121,12 @@ console.log(sumBigInts);
 const userId: symbol = Symbol('id_utente');
 console.log(userId);
 
+// ✏️  Esercizio 14: Symbol()
+// Crea due simboli Symbol("id") e verifica se sono uguali.
 
+const firstSymbol: symbol = Symbol('id');
+const secondSymbol: symbol = Symbol('id');
+
+const comparisonSymbols: boolean = firstSymbol === secondSymbol;
+console.log(comparisonSymbols);
 
