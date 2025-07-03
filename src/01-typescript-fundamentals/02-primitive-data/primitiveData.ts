@@ -93,13 +93,33 @@ console.log(isActive);
     const priceB: bigint = 4567890n;
 
     const sum: bigint = priceA + priceB;
-    console.log(sum);
+    console.log('Somma:', sum);
 
     const subtraction: bigint = priceA - priceB;
-    console.log(subtraction);
+    console.log('Sottrazione:', subtraction);
 
     const multiplication: bigint = priceA * priceB;
-    console.log(multiplication);
+    console.log('Moltiplicazione:', multiplication);
 }
+
+// ✏️ Esercizio 12: Somma di number e bigint (risolvi l'errore)
+// Prova a sommare una variabile number a un bigint (deve dare errore) e poi risolvi convertendo il numero.
+
+const number: number = 456789;
+const bigint: bigint = 34567890n;
+
+// const sumNumberBigInt: bigint = number + bigintNumber;
+// console.log(sumNumberBigInt);
+
+const bigintNumber: bigint = BigInt(number);
+const sumBigInts: bigint = bigint + bigintNumber;
+console.log(sumBigInts);
+
+// ✏️  Esercizio 13: Symbol()
+// Usa il tipo Symbol in una variabile e stampa il risultato.
+
+const userId: symbol = Symbol('id_utente');
+console.log(userId);
+
 
 
