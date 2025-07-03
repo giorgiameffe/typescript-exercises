@@ -16,8 +16,14 @@ console.log(fruit);
 
 }
 
-// ✏️ Esercizio 3 – Condtional
+// ✏️ Esercizio 3 – Conditional
 // Usa un booleano in una condizione if
+
+const isLogged: boolean = true;
+
+if (isLogged) {
+    console.log("L'utente ha effettuato l'accesso!")
+}
 
 // ✏️ Esercizio 4 – Variabile null
 // Assegna null a una variabile e stampala
