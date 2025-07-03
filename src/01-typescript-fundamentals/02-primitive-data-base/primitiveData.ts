@@ -58,5 +58,17 @@ console.log(sumTwoNumbers(3, 5));
 // ✏️ Esercizio 8 – typeof
 // Usa typeof su ogni tipo primitivo
 
-// 9. Tipizza una variabile booleana con const isActive: boolean = true
+{
+    const name = 'Ginevra';
+    const age = 8;
+    const isAdult = false;
+    const favouriteFood = undefined;
+    const weight = null;
+
+    console.log(typeof name, typeof age, typeof isAdult, typeof favouriteFood, typeof weight);
+}
+
+// ✏️ Esercizio 9 – Variabile Booleana
+// Tipizza una variabile booleana con const isActive: boolean = true
+
 // 10. Verifica typeof su valori null e undefined
