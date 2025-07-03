@@ -71,4 +71,7 @@ console.log(sumTwoNumbers(3, 5));
 // ✏️ Esercizio 9 – Variabile Booleana
 // Tipizza una variabile booleana con const isActive: boolean = true
 
+const isActive: boolean = true;
+console.log(isActive);
+
 // 10. Verifica typeof su valori null e undefined
