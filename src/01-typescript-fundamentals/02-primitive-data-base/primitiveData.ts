@@ -34,6 +34,9 @@ console.log(firstName);
 // ✏️ Esercizio 5 – Variabile undefined
 // Assegna undefined a una variabile e verifica typeof
 
+const lastName: undefined = undefined;
+console.log(typeof lastName);
+
 // ✏️ Esercizio 6 – Concatenazione stringhe
 // Concatena due stringhe con template literals
 
