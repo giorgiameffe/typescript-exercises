@@ -4,10 +4,17 @@
 const fruit: string = 'Cocomero';
 console.log(fruit);
 
-
 // ✏️ Esercizio 2 – Variabili numeriche
 // Crea due numeri e stampane la somma
 
+{
+
+    const num1: number = 23;
+    const num2: number = 11;
+    const sum: number = num1 + num2;
+    console.log(sum);
+
+}
 
 // ✏️ Esercizio 3 – Condtional
 // Usa un booleano in una condizione if
