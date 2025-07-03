@@ -28,6 +28,9 @@ if (isLogged) {
 // ✏️ Esercizio 4 – Variabile null
 // Assegna null a una variabile e stampala
 
+const firstName: null = null;
+console.log(firstName);
+
 // ✏️ Esercizio 5 – Variabile undefined
 // Assegna undefined a una variabile e verifica typeof
 
