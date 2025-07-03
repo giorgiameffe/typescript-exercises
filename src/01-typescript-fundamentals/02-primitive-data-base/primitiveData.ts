@@ -48,6 +48,13 @@ console.log(fullName);
 // ✏️ Esercizio 7 – Funzione numerica
 // Scrivi una funzione che prende due numeri e restituisce la somma
 
+function sumTwoNumbers(num1: number, num2: number): number {
+
+    return num1 + num2
+}
+
+console.log(sumTwoNumbers(3, 5));
+
 // ✏️ Esercizio 8 – typeof
 // Usa typeof su ogni tipo primitivo
 
