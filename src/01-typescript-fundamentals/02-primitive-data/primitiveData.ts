@@ -84,4 +84,22 @@ console.log(isActive);
     console.log(typeof x, typeof y);
 }
 
+// ✏️ Esercizio 11: Creazione e somma di BigInt
+// Crea due variabili bigint chiamate prezzoA e prezzoB, con valori molto grandi.
+// Calcola la somma, la differenza e il prodotto dei due prezzi.
+
+{
+    const priceA: bigint = 1234567890n;
+    const priceB: bigint = 4567890n;
+
+    const sum: bigint = priceA + priceB;
+    console.log(sum);
+
+    const subtraction: bigint = priceA - priceB;
+    console.log(subtraction);
+
+    const multiplication: bigint = priceA * priceB;
+    console.log(multiplication);
+}
+
 
