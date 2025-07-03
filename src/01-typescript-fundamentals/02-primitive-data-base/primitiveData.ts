@@ -55,7 +55,7 @@ function sumTwoNumbers(num1: number, num2: number): number {
 
 console.log(sumTwoNumbers(3, 5));
 
-// ✏️ Esercizio 8 – typeof
+// ✏️ Esercizio 8 – Typeof
 // Usa typeof su ogni tipo primitivo
 
 {
@@ -74,4 +74,14 @@ console.log(sumTwoNumbers(3, 5));
 const isActive: boolean = true;
 console.log(isActive);
 
-// 10. Verifica typeof su valori null e undefined
+// ✏️ Esercizio 10 – Typeof su valori Null e Undefined
+// Verifica typeof su valori null e undefined
+
+{
+    const x = null;
+    const y = undefined;
+
+    console.log(typeof x, typeof y);
+}
+
+
