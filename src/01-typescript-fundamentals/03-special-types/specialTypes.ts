@@ -37,3 +37,16 @@ console.log(data);
     }
 }
 
+// ✏️ Esercizio 4: Unknow ed Errori
+// Mostra l’errore con unknown senza controllo e poi procedi con la correzione.
+
+const dato: unknown = 50.56356;
+// console.log(dato.toFixed());
+
+if (typeof dato === 'number') {
+    console.log(dato.toFixed(2))
+}
+
+
+
+
