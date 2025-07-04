@@ -61,13 +61,22 @@ sayHello('Giorgia');
 // Scrivi una funzione showAlert che mostra un alert("Attenzione!"). 
 // Specifica che il tipo di ritorno è void.
 
-function showAlert(): void {
+// function showAlert(): void {
 
-    alert('Attenzione!');
+//     alert('Attenzione!');
+// }
+
+// showAlert();
+
+// ✏️ Esercizio 6: Never
+// Crea una funzione errorMsg che prende una stringa e lancia sempre un Error. Usa il tipo di ritorno never.
+
+function errorMsg(msg: string): never {
+
+    throw new Error(msg);
 }
 
-showAlert();
-
+errorMsg('Errore!');
 
 
 
