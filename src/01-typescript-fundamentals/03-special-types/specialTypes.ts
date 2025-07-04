@@ -57,5 +57,17 @@ function sayHello(name: string): void {
 
 sayHello('Giorgia');
 
+// ✏️ Esercizio 6: Void 
+// Scrivi una funzione showAlert che mostra un alert("Attenzione!"). 
+// Specifica che il tipo di ritorno è void.
+
+function showAlert(): void {
+
+    alert('Attenzione!');
+}
+
+showAlert();
+
+
 
 
