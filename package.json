@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "1": "node dist/01-typescript-fundamentals/01-variables/variables.js",
-    "2": "node dist/01-typescript-fundamentals/02-primitive-data/primitiveData.js"
+    "2": "node dist/01-typescript-fundamentals/02-primitive-data/primitiveData.js",
+    "3": "node dist/01-typescript-fundamentals/03-special-types/specialTypes.js"
   },
   "keywords": [],
   "author": "",
