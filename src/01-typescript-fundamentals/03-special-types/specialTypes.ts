@@ -47,6 +47,15 @@ if (typeof dato === 'number') {
     console.log(dato.toFixed(2))
 }
 
+// ✏️ Esercizio 5: Void 
+// Crea una funzione saluta che accetta un nome e stampa "Ciao, <nome>", senza restituire nulla.
+
+function sayHello(name: string): void {
+
+    console.log(`Ciao, ${name}`);
+}
+
+sayHello('Giorgia');
 
 
 
