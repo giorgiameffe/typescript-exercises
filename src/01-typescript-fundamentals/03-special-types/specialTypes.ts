@@ -9,3 +9,17 @@ console.log(value);
 
 value = true;
 console.log(value);
+
+// ✏️ Esercizio 2 – Any
+// Dichiara una variabile data di tipo any. Assegnale un numero, poi una stringa, poi un array.
+
+let data: any;
+
+data = 3;
+console.log(data);
+
+data = 'Estate';
+console.log(data);
+
+data = [4, 8, 13, 5];
+console.log(data);
