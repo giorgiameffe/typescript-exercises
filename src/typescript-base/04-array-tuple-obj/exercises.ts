@@ -67,5 +67,19 @@ const car: { model: string, year: number } = {
 
 console.log(`Auto: ${car.model}, anno: ${car.year}`);
 
+// Esercizio 2: Oggetto film
+// Crea un oggetto movie con le proprietà:
+// title
+// runtime
+// Poi stampa il titolo e la durata.
+
+const movie: { title: string, runtime: number } = {
+
+    title: "Notting Hill",
+    runtime: 124
+}
+
+console.log(`${movie.title} ha una durata di ${movie.runtime} minuti`);
+
 
 
