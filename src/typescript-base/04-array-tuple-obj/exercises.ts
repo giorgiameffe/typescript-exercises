@@ -99,6 +99,22 @@ if (task.completed) {
     console.log('Da fare');
 }
 
+// Array di Oggetti 
+
+// Esercizio 1: Array di persone
+// Crea un array di oggetti chiamato people, dove ogni oggetto ha:
+// name
+// age
+// Stampa ogni persona nel formato: Marco ha 25 anni
+
+const people: { name: string, age: number }[] = [
+    { name: 'Viviana', age: 27 },
+    { name: 'Stefano', age: 40 },
+    { name: 'Veronica', age: 28 }
+]
+
+people.forEach(person => console.log(`${person.name} ha ${person.age} anni`));
+
 
 
 
