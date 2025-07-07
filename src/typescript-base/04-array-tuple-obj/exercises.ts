@@ -67,7 +67,7 @@ const car: { model: string, year: number } = {
 
 console.log(`Auto: ${car.model}, anno: ${car.year}`);
 
-// Esercizio 2: Oggetto film
+// ✏️ Esercizio 2: Oggetto film
 // Crea un oggetto movie con le proprietà:
 // title
 // runtime
@@ -80,6 +80,25 @@ const movie: { title: string, runtime: number } = {
 }
 
 console.log(`${movie.title} ha una durata di ${movie.runtime} minuti`);
+
+// ✏️ Esercizio 3: Oggetto task
+// Crea un oggetto task con:
+// title
+// completed
+// Stampa: completato se true, da fare se false
+
+const task: { title: string, completed: boolean } = {
+
+    title: "Fare la spesa",
+    completed: true
+}
+
+if (task.completed) {
+    console.log('Completato!');
+} else {
+    console.log('Da fare');
+}
+
 
 
 
