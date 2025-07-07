@@ -7,5 +7,17 @@ type Product = {
     price: number
 }
 
-const product: Product = { name: 'Tablet', price: 100 };
-console.log(product);
+const tablet: Product = { name: 'Tablet', price: 100 };
+console.log(tablet);
+
+// ✏️ Esercizio 2 – interface base
+// Crea un’interface chiamata Person con: name e age
+// Crea una variabile e stampala con una frase.
+
+interface Person {
+    name: string,
+    age: number
+}
+
+const user: Person = { name: 'Elisabetta', age: 28 }
+console.log(`${user.name} ha ${user.age} anni`);
