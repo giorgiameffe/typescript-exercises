@@ -13,7 +13,7 @@
 // ✏️ Esercizio 2: Crea saluto
 // Scrivi una funzione che prende un nome (stringa) e ritorna una frase tipo: "Ciao, Mario!".
 
-function sayHi(name: string) {
+function sayHi(name: string): string {
 
     return `Ciao, ${name}!`;
 }
@@ -23,8 +23,17 @@ console.log(sayHi('Linda'));
 // ✏️ Esercizio 3: Controlla maggiore età
 // Scrivi una funzione che prende un'età (numero) e restituisce true se è maggiore o uguale a 18, altrimenti false.
 
+function isAdult(age: number) {
 
+    if (age >= 18) {
+        return true
+    } else {
+        return false
+    }
+}
 
+console.log(isAdult(10));
+console.log(isAdult(23));
 
 // ✏️ Esercizio 4: Array di nomi
 // Scrivi una funzione che accetta un array di stringhe e stampa ogni nome.
