@@ -15,7 +15,19 @@ function evenNumber(numbers: number[]): number[] {
 console.log(evenNumber([1, 2, 3, 4, 5, 6]));
 
 // ✏️ Esercizio 3: Calcola la somma totale
-// Somma tutti i numeri dell’array [3, 7, 2, 8, 13].
+// Somma tutti i numeri dell’array [3, 7, 2, 13, 18].
+
+{
+    const numbers: number[] = [3, 7, 2, 13, 18];
+
+    const sumNumbers = numbers.reduce((acc: number, currentValue: number) => {
+
+        return acc + currentValue;
+
+    })
+
+    console.log(sumNumbers);
+}
 
 // Tuple
 
