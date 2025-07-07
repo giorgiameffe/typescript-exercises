@@ -23,13 +23,9 @@ console.log(sayHi('Linda'));
 // ✏️ Esercizio 3: Controlla maggiore età
 // Scrivi una funzione che prende un'età (numero) e restituisce true se è maggiore o uguale a 18, altrimenti false.
 
-function isAdult(age: number) {
+function isAdult(age: number): boolean {
 
-    if (age >= 18) {
-        return true
-    } else {
-        return false
-    }
+    return age >= 18;
 }
 
 console.log(isAdult(10));
@@ -38,7 +34,12 @@ console.log(isAdult(23));
 // ✏️ Esercizio 4: Array di nomi
 // Scrivi una funzione che accetta un array di stringhe e stampa ogni nome.
 
+function printNames(names: string[]): void {
 
+    names.forEach(name => console.log(name));
+}
+
+printNames(['Maria', 'Azzurra', 'Enea']);
 
 
 // ✏️ Esercizio 5: Funzione con oggetto
