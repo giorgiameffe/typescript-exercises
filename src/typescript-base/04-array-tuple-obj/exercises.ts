@@ -115,6 +115,23 @@ const people: { name: string, age: number }[] = [
 
 people.forEach(person => console.log(`${person.name} ha ${person.age} anni`));
 
+// Esercizio 2: Filtrare elementi
+// Crea un array di oggetti chiamato products e filtra i prodotti che costano da 10 euro in giù e stampali.
+
+const products: { name: string, price: number }[] = [
+    { name: 'Zaino', price: 39.99 },
+    { name: 'Penna', price: 1.5 },
+    { name: 'Quaderno', price: 5 },
+    { name: 'Calcolatrice', price: 22.75 },
+    { name: 'Borraccia', price: 10 },
+    { name: 'Laptop', price: 799.99 }
+]
+
+const filteredProducts = products.filter(product => product.price <= 10);
+console.log(filteredProducts);
+
+
+
 
 
 
