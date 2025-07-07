@@ -5,7 +5,14 @@ const numbers: number[] = [1, 2, 3, 4, 5];
 numbers.forEach(number => console.log(number));
 
 // ✏️ Esercizio 2: Funzione che filtra i numeri pari
-// Dato l’array [1, 2, 3, 4, 5, 6], crea una funzione che restituisca solo i numeri pari.
+// Crea una funzione che restituisca un array di numeri pari.
+
+function evenNumber(numbers: number[]): number[] {
+
+    return numbers.filter(number => number % 2 === 0);
+}
+
+console.log(evenNumber([1, 2, 3, 4, 5, 6]));
 
 // ✏️ Esercizio 3: Calcola la somma totale
 // Somma tutti i numeri dell’array [3, 7, 2, 8, 13].
