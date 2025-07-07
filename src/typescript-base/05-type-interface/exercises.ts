@@ -32,7 +32,7 @@ interface Student extends Person {
 const student: Student = { name: 'Rebecca', age: 23, course: 'Biology' };
 console.log(student);
 
-// Esercizio 4: Array di oggetti tipizzati
+// ✏️ Esercizio 4: Array di oggetti tipizzati
 // Usa type o interface per definire un array di prodotti e stampali.
 
 {
@@ -51,3 +51,31 @@ console.log(student);
         console.log(`Nome prodotto: ${product.name}, prezzo: ${product.price}, disponibilità: ${product.available}`)
     })
 }
+
+// ✏️ Esercizio 5: Estensione di type
+// Crea un tipo Person con name e age
+// Estendi Person in un nuovo tipo chiamato Employee, che aggiunge: role e salary
+// Crea una variabile di tipo Employee e stampala.
+
+{
+    type Person = {
+        name: string,
+        age: number
+    }
+
+    type Employee = Person & {
+        role: string,
+        salary: number
+    }
+
+    const employee: Employee = {
+        name: 'Antonio',
+        age: 40,
+        role: 'Archivista',
+        salary: 1700
+    }
+
+    console.log(employee);
+}
+
+
