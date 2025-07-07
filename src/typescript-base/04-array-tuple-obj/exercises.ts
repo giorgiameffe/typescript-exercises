@@ -46,5 +46,12 @@ console.log(book);
 // ✏️ Esercizio 3: Funzione che usa una tupla
 // Scrivi una funzione che prende una tupla [nome, età] e stampa una frase.
 
-// Oggetti
+function describePerson(person: [string, number]): void {
+
+    console.log(`Mi chiamo ${person[0]} e ho ${person[1]} anni.`)
+}
+
+describePerson(['Claudia', 27]);
+
+
 
