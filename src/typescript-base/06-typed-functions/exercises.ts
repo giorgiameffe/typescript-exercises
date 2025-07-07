@@ -13,7 +13,12 @@
 // ✏️ Esercizio 2: Crea saluto
 // Scrivi una funzione che prende un nome (stringa) e ritorna una frase tipo: "Ciao, Mario!".
 
+function sayHi(name: string) {
 
+    return `Ciao, ${name}!`;
+}
+
+console.log(sayHi('Linda'));
 
 // ✏️ Esercizio 3: Controlla maggiore età
 // Scrivi una funzione che prende un'età (numero) e restituisce true se è maggiore o uguale a 18, altrimenti false.
