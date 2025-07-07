@@ -41,9 +41,32 @@ function printNames(names: string[]): void {
 
 printNames(['Maria', 'Azzurra', 'Enea']);
 
-
 // ✏️ Esercizio 5: Funzione con oggetto
-// Scrivi una funzione che prende un oggetto { nome: string; eta: number } e ritorna una stringa descrittiva.
+// Scrivi una funzione che prende un oggetto { name: string; age: number } e ritorna una stringa descrittiva.
 
+{
+    function describePerson(person: { name: string, age: number }): string {
+
+        return `Ciao, sono ${person.name} e ho ${person.age} anni.`
+    }
+
+    console.log(describePerson({ name: 'Giulio', age: 34 }));
+}
+
+{
+    // Con Interface
+
+    interface Person {
+        name: string,
+        age: number
+    }
+
+    function describePerson(person: Person): string {
+
+        return `Ciao, sono ${person.name} e ho ${person.age} anni.`
+    }
+
+    console.log(describePerson({ name: 'Tommaso', age: 22 }));
+}
 
 
