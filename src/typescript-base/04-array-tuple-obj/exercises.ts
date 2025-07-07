@@ -101,7 +101,7 @@ if (task.completed) {
 
 // Array di Oggetti 
 
-// Esercizio 1: Array di persone
+// ✏️ Esercizio 1: Array di persone
 // Crea un array di oggetti chiamato people, dove ogni oggetto ha:
 // name
 // age
@@ -115,7 +115,7 @@ const people: { name: string, age: number }[] = [
 
 people.forEach(person => console.log(`${person.name} ha ${person.age} anni`));
 
-// Esercizio 2: Filtrare elementi
+// ✏️ Esercizio 2: Filtrare elementi
 // Crea un array di oggetti chiamato products e filtra i prodotti che costano da 10 euro in giù e stampali.
 
 const products: { name: string, price: number }[] = [
