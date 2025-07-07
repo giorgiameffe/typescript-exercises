@@ -53,5 +53,19 @@ function describePerson(person: [string, number]): void {
 
 describePerson(['Claudia', 27]);
 
+// Oggetti
+
+// ✏️ Esercizio 1: Oggetto auto
+// Crea un oggetto chiamato car con due proprietà: marca e anno 
+// Poi stampa: auto: Lancia-y, anno: 2018
+
+const car: { model: string, year: number } = {
+
+    model: 'Lancia-y',
+    year: 2018
+}
+
+console.log(`Auto: ${car.model}, anno: ${car.year}`);
+
 
 
