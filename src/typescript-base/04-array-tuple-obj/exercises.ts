@@ -32,7 +32,10 @@ console.log(evenNumber([1, 2, 3, 4, 5, 6]));
 // Tuple
 
 // ✏️ Esercizio 1: Crea una tupla semplice
-// Crea una tupla con nome ed età e stampa i valori.
+// Crea una tupla con nome ed età e stampa solo il nome.
+
+const person: [string, number] = ['Giorgia', 28];
+console.log(`Nome: ${person[0]}`);
 
 // ✏️ Esercizio 2: Tupla con 3 valori
 // Crea una tupla che rappresenta un libro con titolo, autore, e anno.
