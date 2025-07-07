@@ -31,3 +31,23 @@ interface Student extends Person {
 
 const student: Student = { name: 'Rebecca', age: 23, course: 'Biology' };
 console.log(student);
+
+// Esercizio 4: Array di oggetti tipizzati
+// Usa type o interface per definire un array di prodotti e stampali.
+
+{
+    type Products = {
+        name: string,
+        price: number,
+        available: boolean
+    }
+    const products: Products[] = [
+        { name: 'Ventilatore', price: 30, available: true },
+        { name: 'Lavatrice', price: 400, available: false },
+        { name: 'Lavastoviglie', price: 500, available: true }
+    ]
+
+    products.forEach((product) => {
+        console.log(`Nome prodotto: ${product.name}, prezzo: ${product.price}, disponibilità: ${product.available}`)
+    })
+}
