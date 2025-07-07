@@ -40,6 +40,9 @@ console.log(`Nome: ${person[0]}`);
 // ✏️ Esercizio 2: Tupla con 3 valori
 // Crea una tupla che rappresenta un libro con titolo, autore, e anno.
 
+const book: [string, string, number] = ["L'eleganza del riccio", "Muriel Barbery", 2006];
+console.log(book);
+
 // ✏️ Esercizio 3: Funzione che usa una tupla
 // Scrivi una funzione che prende una tupla [nome, età] e stampa una frase.
 
