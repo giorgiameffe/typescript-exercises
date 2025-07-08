@@ -10,7 +10,7 @@ printValue(8);
 printValue('Luglio');
 
 // ✏️ Esercizio 2: Literal type semplice
-// Definisci una variabile stato che può essere solo "online" o "offline".
+// Definisci una variabile status che può essere solo "online" o "offline".
 
 {
     let status: 'online' | 'offline';
@@ -24,9 +24,19 @@ printValue('Luglio');
 
 
 // ✏️ Esercizio 3: Funzione con literal type
-// Scrivi una funzione segnalaStato che accetta solo "ok" o "errore" e stampa un messaggio diverso in base al valore.
+// Scrivi una funzione che accetta solo "ok" o "errore" e stampa un messaggio diverso in base al valore.
 
+function reportStatus(status: 'ok' | 'errore'): void {
 
+    if (status === 'ok') {
+        console.log('Ok!');
+    } else {
+        console.log('Errore!')
+    }
+}
+
+reportStatus('ok');
+reportStatus('errore');
 
 // ✏️ Esercizio 4: Uso di type con Union e Literal Types
 // 1. Definisci un type chiamato RuoloUtente, che può essere solo uno di questi valori letterali:
