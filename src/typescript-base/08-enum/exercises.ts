@@ -15,11 +15,36 @@ enum WeekDays {
 console.log(WeekDays.Venerdi);
 
 // ✏️ Esercizio 2: Livello accesso
-// Crea un enum LivelloAccesso con valori personalizzati:
-// Utente = 1
-// Moderatore = 5
+// Crea un enum AccessLevel con valori personalizzati:
+// User = 1
+// Moderator = 5
 // Admin = 10
-// Scrivi una funzione descriviAccesso(livello: LivelloAccesso) che stampi un messaggio diverso in base al livello.
+// Scrivi una funzione describeAccess che stampi un messaggio diverso in base al livello.
+
+enum AccessLevel {
+    User = 1,
+    Moderator = 5,
+    Admin = 10
+}
+
+function describeAccess(level: AccessLevel): void {
+
+    switch (level) {
+        case AccessLevel.User:
+            console.log('Sono uno User');
+            break;
+        case AccessLevel.Moderator:
+            console.log('Sono un Moderator');
+            break;
+        case AccessLevel.Admin:
+            console.log('Sono un Admin');
+            break;
+    }
+}
+
+describeAccess(AccessLevel.User);
+describeAccess(AccessLevel.Moderator);
+describeAccess(AccessLevel.Admin);
 
 // ✏️ Esercizio 3: Stato ordine
 // Crea un enum stringa StatoOrdine con i valori: "IN_ATTESA", "SPEDITO", "CONSEGNATO"
