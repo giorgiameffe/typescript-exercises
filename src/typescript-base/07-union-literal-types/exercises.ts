@@ -1,6 +1,13 @@
 // ✏️ Esercizio 1: Union type con parametri
-// Crea una funzione stampaValore che accetta un parametro che può essere stringa o numero e lo stampa.
+// Crea una funzione che accetta un parametro che può essere stringa o numero e lo stampa.
 
+function printValue(value: string | number): void {
+
+    console.log(value);
+}
+
+printValue(8);
+printValue('Luglio');
 
 // ✏️ Esercizio 2: Literal type semplice
 // Definisci una variabile stato che può essere solo "online" o "offline".
