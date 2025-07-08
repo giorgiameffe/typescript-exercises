@@ -39,15 +39,60 @@ reportStatus('ok');
 reportStatus('errore');
 
 // ✏️ Esercizio 4: Uso di type con Union e Literal Types
-// 1. Definisci un type chiamato RuoloUtente, che può essere solo uno di questi valori letterali:
+// 1. Definisci un type chiamato UserRole, che può essere solo uno di questi valori letterali:
 // "admin", "user", "guest".
-// 2. Crea un type chiamato Utente, con le seguenti proprietà:
-// nome: string, ruolo: RuoloUtente
-// 3. Scrivi una funzione verificaAccesso che accetta un oggetto di tipo Utente
+// 2. Crea un type chiamato User, con le seguenti proprietà:
+// name: string, role: UserRole
+// 3. Scrivi una funzione verificaAccesso che accetta un oggetto di tipo User
 // e stampa un messaggio diverso a seconda del ruolo.
 
+type UserRole = 'admin' | 'user' | 'guest';
 
+type User = {
+    name: string,
+    role: UserRole
+}
 
+function verifyAccess(user: User) {
+
+    if (user.role === 'admin') {
+        console.log(`${user.name} è un admin`);
+    } else if (user.role === 'user') {
+        console.log(`${user.name} è uno user`);
+    } else {
+        console.log(`${user.name} è un guest`);
+    }
+}
+
+verifyAccess({ name: 'Leonardo', role: 'admin' });
+verifyAccess({ name: 'Giorgia', role: 'user' });
+verifyAccess({ name: 'Gabriele', role: 'guest' });
+
+// Con switch-case
+
+{
+    function verifyAccess(user: User) {
+
+        switch (user.role) {
+            case 'admin':
+                console.log(`${user.name} è un admin`);
+                break;
+
+            case 'user':
+                console.log(`${user.name} è uno user`);
+                break;
+
+            case 'guest':
+                console.log(`${user.name} è un guest`);
+                break;
+
+        }
+    }
+
+    verifyAccess({ name: 'Leonardo', role: 'admin' });
+    verifyAccess({ name: 'Giorgia', role: 'user' });
+    verifyAccess({ name: 'Gabriele', role: 'guest' });
+}
 
 // ✏️ Esercizio 5: Funzione con union numerico e stringa
 // Crea una funzione calcolaSconto che accetta o:
