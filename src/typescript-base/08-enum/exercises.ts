@@ -48,7 +48,32 @@ describeAccess(AccessLevel.Admin);
 
 // ✏️ Esercizio 3: Stato ordine
 // Crea un enum stringa StatoOrdine con i valori: "IN_ATTESA", "SPEDITO", "CONSEGNATO"
-// Scrivi una funzione aggiornaMessaggio(stato: StatoOrdine) che stampi un messaggio descrittivo per ogni stato.
+// Scrivi una funzione updateMsg(status: StatusOrder) che stampi un messaggio descrittivo per ogni stato.
+
+enum StatusOrder {
+    Pending = "IN_ATTESA",
+    Shipped = "SPEDITO",
+    Delivered = "CONSEGNATO"
+}
+
+function updateMsg(status: StatusOrder): void {
+
+    switch (status) {
+        case StatusOrder.Pending:
+            console.log('Il tuo ordine è in fase di elaborazione');
+            break;
+        case StatusOrder.Shipped:
+            console.log('Il tuo ordine è stato spedito');
+            break;
+        case StatusOrder.Delivered:
+            console.log('Il tuo ordine è stato consegnato');
+            break;
+    }
+}
+
+updateMsg(StatusOrder.Pending);
+updateMsg(StatusOrder.Shipped);
+updateMsg(StatusOrder.Delivered);
 
 // ✏️ Esercizio 4: Ruolo e switch
 // Crea un enum Ruolo con tre ruoli: Studente, Docente, Amministratore.
