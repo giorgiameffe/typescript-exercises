@@ -11,7 +11,8 @@
     "4": "node dist/typescript-base/04-array-tuple-obj/exercises.js",
     "5": "node dist/typescript-base/05-type-interface/exercises.js",
     "6": "node dist/typescript-base/06-typed-functions/exercises.js",
-    "7": "node dist/typescript-base/07-union-literal-types/exercises.js"
+    "7": "node dist/typescript-base/07-union-literal-types/exercises.js",
+    "8": "node dist/typescript-base/08-enum/exercises.js"
   },
   "keywords": [],
   "author": "",
