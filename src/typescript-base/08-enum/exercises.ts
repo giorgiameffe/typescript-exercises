@@ -51,9 +51,9 @@ describeAccess(AccessLevel.Admin);
 // Scrivi una funzione updateMsg(status: StatusOrder) che stampi un messaggio descrittivo per ogni stato.
 
 enum StatusOrder {
-    Pending = "IN_ATTESA",
-    Shipped = "SPEDITO",
-    Delivered = "CONSEGNATO"
+    Pending = "in attesa",
+    Shipped = "spedito",
+    Delivered = "consegnato"
 }
 
 function updateMsg(status: StatusOrder): void {
@@ -67,7 +67,6 @@ function updateMsg(status: StatusOrder): void {
             break;
         case StatusOrder.Delivered:
             console.log('Il tuo ordine è stato consegnato');
-            break;
     }
 }
 
@@ -80,9 +79,9 @@ updateMsg(StatusOrder.Delivered);
 // Scrivi una funzione describeRole(r: Role) che usi uno switch per stampare una descrizione di ogni ruolo.
 
 enum Role {
-    Studente = "STUDENTE",
-    Docente = "DOCENTE",
-    Amministratore = "AMMINISTRATORE"
+    Studente = "studente",
+    Docente = "docente",
+    Amministratore = "amministratore"
 }
 
 
@@ -96,7 +95,7 @@ function describeRole(r: Role): void {
             console.log('Sono un docente');
             break;
         case Role.Amministratore:
-            console.log("Sono l'amministratore")
+            console.log("Sono l'amministratore");
     }
 }
 
@@ -106,4 +105,33 @@ describeRole(Role.Amministratore);
 
 // ✏️ Esercizio 6: Muoversi in una direzione
 // Crea un enum stringa Direzione con: "nord", "sud", "est", "ovest".
-// Scrivi una funzione muovi(d: Direzione) che stampi: "Vai a nord", ecc.
+// Scrivi una funzione move(d: Direction) che stampi: "Vai a nord", ecc.
+
+enum Direction {
+    Nord = 'nord',
+    Sud = 'sud',
+    Est = 'est',
+    Ovest = 'ovest'
+}
+
+function move(d: Direction): void {
+
+    switch (d) {
+        case Direction.Nord:
+            console.log('Vai a nord');
+            break;
+        case Direction.Sud:
+            console.log('Vai a sud');
+            break;
+        case Direction.Est:
+            console.log('Vai ad est');
+            break;
+        case Direction.Ovest:
+            console.log('Vai ad ovest')
+    }
+}
+
+move(Direction.Nord);
+move(Direction.Sud);
+move(Direction.Est);
+move(Direction.Ovest);
