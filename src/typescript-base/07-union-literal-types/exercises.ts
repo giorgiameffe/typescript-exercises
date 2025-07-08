@@ -12,6 +12,16 @@ printValue('Luglio');
 // ✏️ Esercizio 2: Literal type semplice
 // Definisci una variabile stato che può essere solo "online" o "offline".
 
+{
+    let status: 'online' | 'offline';
+
+    status = 'online'
+    console.log(status);
+
+    status = 'offline';
+    console.log(status);
+}
+
 
 // ✏️ Esercizio 3: Funzione con literal type
 // Scrivi una funzione segnalaStato che accetta solo "ok" o "errore" e stampa un messaggio diverso in base al valore.
