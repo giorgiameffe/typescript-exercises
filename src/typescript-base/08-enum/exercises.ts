@@ -77,7 +77,32 @@ updateMsg(StatusOrder.Delivered);
 
 // ✏️ Esercizio 4: Ruolo e switch
 // Crea un enum Ruolo con tre ruoli: Studente, Docente, Amministratore.
-// Scrivi una funzione descriviRuolo(r: Ruolo) che usi uno switch per stampare una descrizione del ruolo.
+// Scrivi una funzione describeRole(r: Role) che usi uno switch per stampare una descrizione di ogni ruolo.
+
+enum Role {
+    Studente = "STUDENTE",
+    Docente = "DOCENTE",
+    Amministratore = "AMMINISTRATORE"
+}
+
+
+function describeRole(r: Role): void {
+
+    switch (r) {
+        case Role.Studente:
+            console.log('Sono uno studente');
+            break;
+        case Role.Docente:
+            console.log('Sono un docente');
+            break;
+        case Role.Amministratore:
+            console.log("Sono l'amministratore")
+    }
+}
+
+describeRole(Role.Studente);
+describeRole(Role.Docente);
+describeRole(Role.Amministratore);
 
 // ✏️ Esercizio 6: Muoversi in una direzione
 // Crea un enum stringa Direzione con: "nord", "sud", "est", "ovest".
