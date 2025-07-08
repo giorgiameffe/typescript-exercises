@@ -95,7 +95,22 @@ verifyAccess({ name: 'Gabriele', role: 'guest' });
 }
 
 // ✏️ Esercizio 5: Funzione con union numerico e stringa
-// Crea una funzione calcolaSconto che accetta o:
+// Crea una funzione calculateDiscount che accetta o:
 // un numero (percentuale)
 // o la stringa "nessuno"
-// Se è un numero, calcola lo sconto su un prezzo. Se "nessuno", torna il prezzo intero.
+// Se è un numero, calcola il prezzo scontato. Se "nessuno", torna il prezzo intero.
+
+type Discount = number | 'nessuno';
+
+function calculateDiscount(price: number, disc: Discount): number {
+
+    if (typeof disc === 'number') {
+        const discountValue: number = price * (disc / 100);
+        return price - discountValue;
+    } else {
+        return price;
+    }
+}
+
+console.log(calculateDiscount(200, 20));
+console.log(calculateDiscount(200, 'nessuno'));
