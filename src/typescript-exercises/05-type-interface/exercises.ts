@@ -77,5 +77,3 @@ console.log(student);
 
     console.log(employee);
 }
-
-

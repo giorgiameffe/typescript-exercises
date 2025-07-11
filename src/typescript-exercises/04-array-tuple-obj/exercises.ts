@@ -129,9 +129,3 @@ const products: { name: string, price: number }[] = [
 
 const filteredProducts = products.filter(product => product.price <= 10);
 console.log(filteredProducts);
-
-
-
-
-
-

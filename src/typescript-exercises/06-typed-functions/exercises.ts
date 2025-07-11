@@ -68,5 +68,3 @@ printNames(['Maria', 'Azzurra', 'Enea']);
 
     console.log(describePerson({ name: 'Tommaso', age: 22 }));
 }
-
-
