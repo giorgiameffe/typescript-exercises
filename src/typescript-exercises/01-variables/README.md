@@ -85,8 +85,6 @@ npm run 1
 
 ## 🎯 Obiettivo
 
-Questi esercizi sono pensati per:
-
 - Comprendere la **sintassi base** di TypeScript
 - Familiarizzare con i **tipi primitivi** (string, number, boolean)
 - Usare correttamente const/let e **tipizzazione implicita/esplicita**

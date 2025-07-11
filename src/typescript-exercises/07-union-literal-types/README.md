@@ -76,12 +76,7 @@ npm run 7
 
 ## 🎯 Obiettivo
 
-Con questi esercizi potrai:
-
 * Imparare a scrivere **funzioni** e **variabili** con **union types**
-
 * Definire valori limitati tramite **literal types**
-
 * Combinare tipi per modellare dati complessi con **type alias**
-
 * Gestire logicamente valori differenti con **controlli di tipo**

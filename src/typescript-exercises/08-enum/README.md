@@ -81,12 +81,7 @@ npm run 8
 
 ## 🎯 Obiettivo
 
-Con questi esercizi potrai:
-
 * Creare e usare **enum numerici** per rappresentare insiemi di valori ordinati
-
 * Definire **enum con valori personalizzati**, sia numerici che stringa
-
 * Utilizzare **switch-case** per gestire facilmente i valori degli enum
-
 * Scrivere funzioni tipizzate che accettano solo valori dell’enum

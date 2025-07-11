@@ -76,8 +76,6 @@ npm run 6
 
 ## 🎯 Obiettivo
 
-Questi esercizi sono pensati per:
-
 * Imparare a scrivere **funzioni tipizzate** in TypeScript
 * Gestire **parametri e valori di ritorno** di vari tipi
 * Lavorare con **array e oggetti** come input delle funzioni

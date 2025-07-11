@@ -77,8 +77,6 @@ npm run 5
 
 ## 🎯 Obiettivo
 
-Questi esercizi sono pensati per:
-
 * Apprendere a definire tipi personalizzati con **type** e **interface**
 * Comprendere come **estendere tipi e interfacce** per modellare dati più complessi
 * Gestire array di oggetti tipizzati

@@ -76,8 +76,6 @@ npm run 3
 
 ## 🎯 Obiettivo
 
-Questi esercizi sono pensati per:
-
 * Imparare a gestire variabili con tipi dinamici tramite **any** e **unknown**
 * Capire l’importanza di **controlli di tipo** per evitare errori in fase di esecuzione
 * Apprendere la definizione e l’uso di funzioni che non restituiscono nulla (**void**)

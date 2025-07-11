@@ -78,8 +78,6 @@ npm run 4
 
 ## 🎯 Obiettivo
 
-Questi esercizi sono pensati per:
-
 * Apprendere a dichiarare e usare **array tipizzati** in TypeScript
 * Utilizzare **tuple** per dati con struttura fissa e tipi specifici
 * Creare e manipolare oggetti con **proprietà** definite e **tipizzate**

@@ -89,8 +89,6 @@ npm run 2
 
 ## 🎯 Obiettivo
 
-Questi esercizi ti aiuteranno a:
-
 - Comprendere e utilizzare correttamente i **tipi primitivi**
 - Rafforzare la sintassi e le **regole di tipizzazione** di TypeScript
 - Usare operatori, funzioni, condizioni e strumenti come ```typeof```
